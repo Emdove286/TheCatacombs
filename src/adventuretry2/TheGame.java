@@ -22,7 +22,7 @@ import java.util.Scanner;
  *  the bottom most right which is 9999.
  *  
  */
-public class TheGame //you lose
+public class TheGame 
 {
     String name, dog, brother, move;
     int pos;
@@ -44,7 +44,7 @@ public class TheGame //you lose
       * this can be used to create a map for the game
       * each line will be a different room
       */
-    int[] blocked = {6, 101, 102, 103, 105, 202, 203, 305, 401, 402, 403, 404, 405,106,306,406,
+    int[] blocked = {6,101, 102, 103, 105, 202, 203, 305, 401, 402, 403, 404, 405,106,306,406,
         15,108,109,110,111,112,113,114,115,215,308,309,310,311,312,313,315,410,415,506,508,509,510,511,512,513,514,515,606,608,706,708,806,808};
     
 //------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
@@ -117,7 +117,7 @@ public class TheGame //you lose
         desc[201] = "\nyou climb the ladder to see what looks like an old man\n lying on thie ground. you check to see if he is alright\nthe man is dead\n in his pockets you find an old key and take it \n you can only climb down the ladder to the south";
         desc[206] = "\nYou have won the game!!! for now?!???!?!?!?!";
 //--------------------------Room Two-----------------------------------------------------------------------------------------------------------------------------------------------------
-        desc[7]="";
+        desc[7]="\nThe hall comes to a corner. You can feel the soft ground beneath your feet ever so slghtly squish.\nThe hallway continues east and south";
         desc[8]="";
         desc[9]="";
         desc[10]="";
@@ -125,8 +125,8 @@ public class TheGame //you lose
         desc[12]="";
         desc[13]="";
         desc[14]="";
-        desc[107]="";
-        desc[207]="The section smells as if death had been here for a very long time.\nOne glance around the room supports your suspicions.\nthe remains of the old are here, buried under paris and long forgotten.\nCuriously enough you see some new remains pushed into some of the old remains\nperpetuating a new smell of death along with the old\n you see a hallway to the north east and south and the sewers to the west.";
+        desc[107]="\nThe hall way here has a slight incline towards the north.\nIt looks like over time the dirt and rat feces has begun to pile up in this corridor.\nThe hallway continues north and south. s";
+        desc[207]="\nThe section smells as if death had been here for a very long time.\nOne glance around the room supports your suspicions.\nthe remains of the old are here, buried under paris and long forgotten.\nCuriously enough you see some new remains pushed into some of the old remains\nperpetuating a new smell of death along with the old\n you see a hallway to the north east and south and the sewers to the west.";
         desc[208]="";
         desc[209]="";
         desc[210]="";
@@ -156,7 +156,7 @@ public class TheGame //you lose
 * This is the games start 
 * exposition, included
 */
-        pos = 1;
+        pos = 1; //
         System.out.println("You have found your self in a dangerous place my child");
         System.out.println("How have you come to such a place? Do you not remember?");
         System.out.println("Do you atleast remember you name?");
@@ -183,7 +183,7 @@ public class TheGame //you lose
         System.out.println("my grand father used to have on his old military uniform");
         System.out.println("you see a long time ago after the great war france went into a depression");
         pressAnyKeyToContinue();
-        System.out.println("my grand father who served in that war wascaught in the middle of it");
+        System.out.println("my grand father who served in that war was caught in the middle of it");
         System.out.println("having no where for shelter he started living where the other homeless began to live");
         System.out.println("deep in the catacombs and old abandoned sewers");
         System.out.println("the french governement saw it as an eyesore");
