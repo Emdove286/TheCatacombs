@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package adventuretry2;
 
 import java.util.Scanner;
@@ -10,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * 
- *@author Cody Ross
+ *@author Emma Ross
  *   
  *  This game is by no means gramtically correct.
  *  the following is the core of the code which controls
@@ -58,10 +54,10 @@ public class TheGame //you lose
     int[] key = new int[10000];
     int movecount;
 
-    public TheGame() //you lose.... also lots of exposition
+    public TheGame() //lots of exposition
     {
 
-        for (int i = 0; i < 10000; i++)//every value begins as true as to appeared blocked
+        for (int i = 0; i < 10000; i++)//every value begins as true as to appeared locked
         {
             locked[i] = true;
         }
@@ -298,7 +294,7 @@ public class TheGame //you lose
 
  //-----------------------------------------------------------------------------------------------------------//  
     
-    public void move() // operates players moevemnet on the grid
+    public void move() // operates players movement on the grid
     {
        move = scan.nextLine();
         if (move.contains("north") || move.equals("n")) // .contains is found in string class and searches string for a specific word. w

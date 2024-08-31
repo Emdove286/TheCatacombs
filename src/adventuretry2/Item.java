@@ -1,15 +1,6 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package adventuretry2;
 
-/**
- *
- * @author Cody Ross
- * 
- */
 public class Item {
     String name, type;
     int weight, damage;
